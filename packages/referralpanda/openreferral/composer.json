@@ -1,0 +1,29 @@
+{
+  "name": "ReferralPanda/OpenReferral",
+  "authors": [
+    {
+      "name": "poorya bagheri faez",
+      "email": "poorya@referralpanda.com"
+    },
+    {
+      "name": "Immanuel Kannan",
+      "email": "immanuel@referralpanda.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "laravelcollective/html": "^5.5"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ReferralPanda\\OpenReferral\\OpenReferralServiceProvider"
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "ReferralPanda\\OpenReferral\\": "src/"
+    }
+  }
+}
